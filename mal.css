@@ -16,7 +16,8 @@
 }
 
 input.expand_quote + span.spoiler_content {
-  /* We don't want expanded quotes to contain a spoiler border, so this basically hides the spoiler border changes implemented in the earlier block */
+  /* We don't want expanded quotes to contain a spoiler border, so this basically hides the spoiler border changes 
+  implemented in the earlier block */
   border: 0px !important;
   padding: 0px !important;
   margin: 0px !important;
