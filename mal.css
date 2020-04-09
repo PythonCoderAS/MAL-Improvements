@@ -1,0 +1,64 @@
+/* Contains my user css that I use to imporve MAL and it's design. */
+
+.quotetext{
+  border: 1px solid green !important;
+}
+
+.spoiler_content{
+  border: 1px solid red !important;
+  margin-bottom: 5px !important;
+  margin-left: 10px !important;
+  margin-top: 5px !important;
+  padding: 5px !important;
+  padding-right: 15px !important;
+}
+
+input.expand_quote + span.spoiler_content {
+  border: 0px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+input.hide_button{
+  border: 1px solid green !important;
+}
+
+input.show_button{
+  border: 1px solid red !important;
+}
+
+input.expand_quote{
+  border: 1px solid yellow !important;
+}
+
+.sig{
+  margin-top: 10px !important;
+  border: 1px solid blue !important;
+  padding: 10px;
+}
+
+div.forum_border_around div.forum_category {
+  border-radius: 0px;
+}
+
+input.hide_button, input.show_button, input.expand_quote {
+  border-radius: 4px;
+}
+
+div.forum_border_around div, .spoiler_content, .quotetext{
+  border-radius: 8px;
+}
+
+div.forum_border_around {
+  border: 3px solid silver; 
+  border-radius: 8px;
+}
+
+div.forum_border_around:hover {
+  border-color: gray;
+}
+
+div.forum_category {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
