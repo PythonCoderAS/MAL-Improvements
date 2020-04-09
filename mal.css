@@ -1,10 +1,12 @@
 /* Contains my user css that I use to imporve MAL and it's design. */
 
-.quotetext{
+.quotetext{ 
+  /* Makes all quotes contain a green border to show the quotes and their boundaries */
   border: 1px solid green !important;
 }
 
-.spoiler_content{
+.spoiler_content{ 
+  /* Makes all spoilers contain a red border to show spoilers and their boundaries. Also adds some padding. */
   border: 1px solid red !important;
   margin-bottom: 5px !important;
   margin-left: 10px !important;
@@ -14,24 +16,29 @@
 }
 
 input.expand_quote + span.spoiler_content {
+  /* We don't want expanded quotes to contain a spoiler border, so this basically hides the spoiler border changes implemented in the earlier block */
   border: 0px !important;
   padding: 0px !important;
   margin: 0px !important;
 }
 
 input.hide_button{
+  /* Makes "hide spoiler" buttons green */
   border: 1px solid green !important;
 }
 
 input.show_button{
+    /* Makes "show spoiler" buttons red */
   border: 1px solid red !important;
 }
 
 input.expand_quote{
+  /* Makes "expand quotes" buttons yellow */
   border: 1px solid yellow !important;
 }
 
 .sig{
+  /* Gives all user signatures a blue border */
   margin-top: 10px !important;
   border: 1px solid blue !important;
   padding: 10px;
@@ -41,24 +48,29 @@ div.forum_border_around div.forum_category {
   border-radius: 0px;
 }
 
-input.hide_button, input.show_button, input.expand_quote {
+input.button input.hide_button, input.show_button, input.expand_quote {
+  /* Gives all types of buttons a curved border */
   border-radius: 4px;
 }
 
 div.forum_border_around div, .spoiler_content, .quotetext{
+  /* Gives all divs inside a fourm post, spoilers, and quotes a curved border */
   border-radius: 8px;
 }
 
 div.forum_border_around {
+  /* Gives all individual posts on a forum page a 3px silver curved border */
   border: 3px solid silver; 
   border-radius: 8px;
 }
 
 div.forum_border_around:hover {
+  /* The hovered-over fourm post changes border color to show it is being hovered over */
   border-color: gray;
 }
 
 div.forum_category {
-    border-top-left-radius: 5px !important;
-    border-top-right-radius: 5px !important;
+  /* Gives the blue bar with post creation time curved borders at the top */
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
 }
