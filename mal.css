@@ -75,3 +75,14 @@ div.forum_category {
   border-top-left-radius: 5px !important;
   border-top-right-radius: 5px !important;
 }
+
+form div.forum_boardrow1 {
+  /* Makes polls contain curved borders */
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+form div.forum_category {
+  /* Seperates the poll from the top */
+  margin-top: 15px !important;
+}
